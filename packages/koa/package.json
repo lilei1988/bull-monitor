@@ -1,5 +1,5 @@
 {
-  "name": "@bull-monitor/koa",
+  "name": "@bullmq-monitor/koa",
   "version": "5.1.0",
   "description": "bull-monitor for koa",
   "repository": {
@@ -21,7 +21,7 @@
     "dev": "tsc --watch"
   },
   "dependencies": {
-    "@bull-monitor/root": "^5.1.0",
+    "@bullmq-monitor/root": "^5.1.0",
     "apollo-server-koa": "^3.6.3"
   },
   "peerDependencies": {
