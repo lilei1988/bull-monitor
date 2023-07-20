@@ -1,4 +1,4 @@
-import { BullMonitor } from '@bull-monitor/root';
+import { BullMonitor } from '@lilei/root';
 import { ApolloServer } from 'apollo-server-koa';
 import Router from 'koa-router';
 import { ApolloServerPluginDrainHttpServer } from 'apollo-server-core';

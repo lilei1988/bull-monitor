@@ -1,6 +1,6 @@
 {
   "name": "@lilei/koa",
-  "version": "5.1.1",
+  "version": "1.0.3",
   "description": "bull-monitor for koa",
   "keywords": [
     "bull"
@@ -15,7 +15,7 @@
     "dev": "tsc --watch"
   },
   "dependencies": {
-    "@lilei/root": "^5.1.0",
+    "@lilei/root": "^1.0.3",
     "apollo-server-koa": "^3.6.3"
   },
   "peerDependencies": {
