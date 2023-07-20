@@ -4,6 +4,7 @@ import { ALIASES, DST } from './vite.config.constants';
 
 export default defineConfig({
   plugins: [reactRefresh()],
+  base: './',
   build: {
     target: 'es2015',
     outDir: DST,

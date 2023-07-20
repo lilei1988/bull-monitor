@@ -1,16 +1,10 @@
 {
-  "name": "@bullmq-monitor/koa",
-  "version": "5.1.0",
+  "name": "@lilei/koa",
+  "version": "5.1.1",
   "description": "bull-monitor for koa",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/s-r-x/bull-monitor.git",
-    "directory": "packages/koa"
-  },
   "keywords": [
     "bull"
   ],
-  "author": "Ilya Strus <strax1990@gmail.com>",
   "license": "MIT",
   "types": "dist/index.d.ts",
   "main": "dist/index.js",
@@ -21,7 +15,7 @@
     "dev": "tsc --watch"
   },
   "dependencies": {
-    "@bullmq-monitor/root": "^5.1.0",
+    "@lilei/root": "^5.1.0",
     "apollo-server-koa": "^3.6.3"
   },
   "peerDependencies": {
@@ -33,5 +27,5 @@
     "@types/koa-router": "^7.4.2",
     "typescript": "^4.2.4"
   },
-  "gitHead": "56060c20da8134cce74efaf278dd63b81cdcab4f"
+  "gitHead": "604a85b1e7d28f5483b92f2714157973b70f1190"
 }
