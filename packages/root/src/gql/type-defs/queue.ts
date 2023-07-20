@@ -6,6 +6,7 @@ export const queueTypeDef = gql`
     bullmq
   }
   type QueueJobsCounts {
+    prioritized: Int!
     waiting: Int!
     active: Int!
     completed: Int!
@@ -54,5 +55,6 @@ export const queueTypeDef = gql`
     jobs: [Job]!
     isPaused: Boolean!
     metrics: [QueueMetrics!]
+    prioritizedCount: Int!
   }
 `;

@@ -127,6 +127,10 @@ export class BullDataSource extends DataSource {
     const queue = this.getQueueById(id);
     return await queue?.getFailedCount();
   }
+  public async getQueuePrioritizedCount(id: string): Promise<Maybe<number>> {
+    const queue = this.getQueueById(id);
+    return await queue?.getCompletedCount();
+  }
   public async getQueueCompletedCount(id: string): Promise<Maybe<number>> {
     const queue = this.getQueueById(id);
     return await queue?.getCompletedCount();
